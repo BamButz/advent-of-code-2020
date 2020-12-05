@@ -11,6 +11,7 @@ func main() {
 	dayRoutines = append(
 		dayRoutines,
 		days.One,
+		days.Two,
 	)
 
 	for i, routine := range dayRoutines {
